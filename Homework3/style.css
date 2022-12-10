@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Header-top{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F6F7F8;
+    align-items: center;
+    padding: 10px;
+    
+}
+.h-left a{
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 20px;
+    color: #666;
+    
+}
+.h-left{
+    padding: 10px 40px;
+   
+}
+#button{
+    margin-left: 20px;
+    color: #0056c1;
+    border: 2px solid #0056c1;
+    background-color:#fff;
+    border-radius: 20px;
+    padding: 5px;
+    transition: 0.8s;
+}
+#button:hover{
+    background-color: #0056c1;
+    color: #fff;
+    transition: 0.8s;
+
+}
+.h-right{
+    display: flex;
+    align-items: center;
+}
+.h-right p{
+    margin: 0 20px;
+    font-size: 15px;
+    color: #666;
+}
+#content{
+    color: #666;
+    font-size: 14px;
+    margin-left: 5px;
+}
+.h-right i{
+    color: #666;
+    font-size: 13px;
+}
+.h-right span{
+    margin: 0 10px 0px 5px;
+}
+.hb-left{
+    display: flex;
+    align-items: center;
+}
+.hb-left img{
+    margin: 0px 40px 0px 40px;
+}
+.hb-left a{
+    text-decoration: none;
+    color: #666;
+}
+#Main{
+    color: rgb(59, 59, 59);
+    font-size: 12px;
+}
+#first{
+    margin: 0px 15px;
+    font-size: 20px;
+    color: rgb(59, 59, 59) ;
+}
+#second{
+    margin: 0px 15px;
+    font-size: 20px;
+}
+.Header-buttom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.hb-right{
+    display: flex;
+    align-items: center;
+}
+.hb-right a{
+    color: #0056c1;
+    text-decoration: none;
+    margin: 0px 50px 0px 10px;
+}
+#Second-h{
+    display: none;
+}
+@media(max-width:576px){
+#Header{
+    display: none;
+}
+#Second-h{
+    display: block;
+}
+.Second-headertop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F6F7F8;
+    padding: 10px;
+}
+.head-left a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #666;
+}
+.head-right p{
+    margin: 0 20px;
+    font-size: 15px;
+    color: #666;
+}
+.head-right i{
+    color: #666;
+    font-size: 13px;
+}
+.head-right{
+    display: flex;
+    align-items: center;
+}
+
+.second-headerbuttom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.sheader-right i{
+    font-size: 30px;;
+}
+}
